@@ -11,7 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Show tasks
+Route::get('/', 'TasksController@index');
+Route::get('priority', 'TasksController@priority');
+
+//Add tasks
+Route::get('create','TasksController@create');
+Route::post('create','TasksController@store');
+
+//Edit tasks
+Route::get('tasks/{tasks}', 'TasksController@edit');
+Route::post('update', 'TasksController@update');
+
+Route::post('tasks_delete', 'TasksController@destroy');
+Route::post('tasks_finish', 'TasksController@finish');
+
 Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
