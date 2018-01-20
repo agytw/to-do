@@ -1,6 +1,6 @@
 # To-Do List Written in Laravel
 
-### Deployed on [www.shuye.tk](shuye.tk)
+### Deployed on [www.shuye.tk](http://shuye.tk)
 
 #### Features
 * Adding and Deleting Tasks
@@ -10,17 +10,17 @@
 * Auth System to Differentiate Users
 
 #### Screenshots
-![Index Page](Screenshots\index.jpg)
+![](Screenshots/index.jpg)
 Listing and Sorting Tasks
 
-![Create Tasks Page](Screenshots\Create.jpg)
+![](Screenshots/Create.jpg)
 Creating Tasks
 
-![Edit Tasks Page](Screenshots\Edit.jpg)
+![](Screenshots/Edit.jpg)
 Editing Tasks
 
-![Login Page](Screenshots\Login.jpg)
-![Register Page](Screenshots\Register.jpg)
+![](Screenshots/login.jpg)
+![](Screenshots/register.jpg)
 User Login And Register
 
 #### Author
